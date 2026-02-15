@@ -25,6 +25,11 @@ app.add_middleware(
 )
 
 # Configuration - DeepSeek API
+#DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
+#DEEPSEEK_MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
+
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
 DEEPSEEK_MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
 
